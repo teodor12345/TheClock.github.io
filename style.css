@@ -46,7 +46,7 @@ body{
     border: 0;
     padding: 8px 12px;
     position: absolute;
-    top:250px;
+    top:150px;
     font-weight: bold;
 
 }
@@ -59,6 +59,7 @@ body{
     flex-direction: column;
     justify-content:space-between;
     align-items: center;
+    
 
 }
 
@@ -123,7 +124,7 @@ body{
 }
 .time{
     font-size: 60px;
-    top: 900px;
+    margin-top:50px;
   
 }
 
@@ -132,6 +133,7 @@ body{
     font-size: 14px;
     letter-spacing:0.3px;
     text-transform: uppercase;
+    margin-top: 30px;
 }
 .date .circle{
     background-color: var(--primary-color);

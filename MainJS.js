@@ -7,7 +7,7 @@ const toggle= document.querySelector('.toggle')
 
 
 
-const days = [ "Sunday", "Monday","Tuesday","Wednsday","Friday","Sataday"];
+const days = [ "Sunday","Monday","Tuesday","Wednsday","Friday","Saturday"];
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul",
 "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -24,7 +24,7 @@ toggle.addEventListener('click', (e) =>{
 })
 
 function setTime(){
-    const time  = new Date();
+   const time = new Date();
     const month = time.getMonth()
     const day = time.getDay()
     const date = time.getDate()
